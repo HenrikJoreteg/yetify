@@ -18,6 +18,8 @@ yetify.liftTab(20);
 yetify.andBangTab(30);
 ```
 
+![result](http://cl.ly/image/2808391V0C35/Screen%20Shot%202012-08-01%20at%2010.26.18%20PM.png)
+
 ## License
 
 Let's call it the, you should work for [&yet](http://andyet.net) to use this thingy, license.

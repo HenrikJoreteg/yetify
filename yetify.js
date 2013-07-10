@@ -23,6 +23,21 @@ module.exports = {
     andBangTab: function (spacing) {
         this._tabify(spacing, this.andBangLogo());
     },
+    shippyRocket: function (text, subtitle, indent) {
+        var label = text || 'Shippy';
+        var label2 = subtitle || '';
+        var spaces = repeat(' ', indent || 5);
+        var rocket = spaces + [
+            '  _'.magenta,
+            ' / \\'.magenta,
+            '|'.magenta + ' @'.grey.bold + ' |'.magenta + '    ' + (label).grey.bold,
+            '/\\ /\\'.magenta + '    ' + label2,
+            '\\/¯\\/'.magenta,
+            ' ╯)'.bold,
+            ' ︶'.bold
+        ].join('\n' + spaces);
+        console.log(rocket);
+    },
     _tabify: function (spacing, text) {
         spacing = (spacing === 0) ? 0 : spacing || 50;
         console.log('\n');

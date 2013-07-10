@@ -7,3 +7,4 @@ console.log(yetify.andBangLogo());
 yetify.logoTab(10);
 yetify.liftTab(20);
 yetify.andBangTab(30);
+yetify.shippyRocket("Shippy.js", 'js SDK');

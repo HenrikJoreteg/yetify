@@ -1,6 +1,6 @@
 {
     "name": "yetify",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "author": "Henrik Joreteg <henrik@andyet.net>",
     "description": "A way to make terminal output all &yet-ified",
     "dependencies": {

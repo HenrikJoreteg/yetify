@@ -36,7 +36,7 @@ module.exports = {
             ' ╯)'.bold,
             ' ︶'.bold
         ].join('\n' + spaces);
-        console.log(rocket);
+        return rocket;
     },
     _tabify: function (spacing, text) {
         spacing = (spacing === 0) ? 0 : spacing || 50;
